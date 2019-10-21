@@ -45,9 +45,9 @@ color:#fff;
 font-size:13px;
 font-weight:300;
 font-family:helvetica, arial, verdana, sans-serif;
-border-color:#fff;
+border-color:#72767d;
 border-style:solid;
-border-width:0
+border-width:1px;
 }
 
 .x-grid-cell-inner,.x-grid-cell-rowbody {
@@ -148,6 +148,10 @@ background-color:#7289da!important
 
 .x-progress-text.x-progress-text-back,.x-progress-text {
 color:#fff!important
+}
+
+.x-progress-text.x-progress-text-back {
+background-color: #23272a;
 }
 
 .x-component.x-box-item.x-component-default {
@@ -323,6 +327,15 @@ background:#737fab!important
 .x-column-header-inner,.x-column-header-default,.x-grid-item,.x-grid-header-ct {
 background:#2c2f33;
 border-width:0!important
+}
+
+.x-column-header:first-child {
+border-left: #72767d 1px solid !important;
+border-right: #72767d 1px solid !important;
+}
+
+.x-column-header~.x-column-header {
+border-right: #72767d 1px solid !important;
 }
 
 .x-column-header-text-inner {
